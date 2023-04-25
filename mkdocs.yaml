@@ -14,9 +14,9 @@ nav:
 #  - News: news
 #  - About SchemaBlocks: schemablocks-principles.md
   - Standards & Practices: standards-recommendations
-    # - Genome Coordinates: standards-recommendations/genome-coordinates
-    # - Dates & Times: standards-recommendations/dates-times
-    # - Identifiers: standards-recommendations/identifiers
+  - Genome Coordinates: standards-recommendations/genome-coordinates
+  - Dates & Times: standards-recommendations/dates-times
+  - Identifiers: standards-recommendations/identifiers
   - Schemas: schema_pages
   - Contacts: contacts
   - '{S}[B] Legacy Site &#8599;': https://legacy.schemablocks.org
