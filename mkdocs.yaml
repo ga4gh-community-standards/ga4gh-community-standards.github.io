@@ -12,14 +12,12 @@ edit_uri: edit/main/docs/
 nav:
   - 'Home': index.md
 #  - News: news
-#  - About SchemaBlocks: schemablocks-principles.md
   - Standards & Practices: standards-recommendations
   - Genome Coordinates: standards-recommendations/genome-coordinates
   - Dates & Times: standards-recommendations/dates-times
   - Identifiers: standards-recommendations/identifiers
-  - Schemas: schema_pages
   - Contacts: contacts
-  - '{S}[B] Legacy Site &#8599;': https://legacy.schemablocks.org
+  - '{S}[B] SchemaBlocks &#8599;': https://schemablocks.org
   - Beacon Project &#8599;: https://beacon-project.io
   - Phenopackets &#8599;: https://phenopackets.org
 
