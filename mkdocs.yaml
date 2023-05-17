@@ -13,9 +13,9 @@ nav:
   - 'Home': index.md
 #  - News: news
   - Standards & Practices: standards-recommendations
-  - Genome Coordinates: standards-recommendations/genome-coordinates
-  - Dates & Times: standards-recommendations/dates-times
-  - Identifiers: standards-recommendations/identifiers
+  - 🧬 Genome Coordinates: standards-recommendations/genome-coordinates
+  - 📅 Dates & Times: standards-recommendations/dates-times
+  - 🗂️ Identifiers: standards-recommendations/identifiers
   - Contacts: contacts
   - '{S}[B] SchemaBlocks &#8599;': https://schemablocks.org
   - Beacon Project &#8599;: https://beacon-project.io
