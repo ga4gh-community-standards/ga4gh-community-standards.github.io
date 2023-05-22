@@ -99,7 +99,7 @@ Not all GA4GH related products, specifications and APIs use the same system for 
 | SAM |  | X |  |
 | VCF |  | X |  |
 | BCF | X |  |  |
-| htsget | X |  |  |
+| [htsget](https://samtools.github.io/hts-specs/htsget.html#design-principles) | X |  |  |
 | refget | X |  |  |
 | Beacon | X |  |  |
 | VMC |  |  | X |
