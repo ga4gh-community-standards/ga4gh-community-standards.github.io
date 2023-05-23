@@ -12,10 +12,10 @@ edit_uri: edit/main/docs/
 nav:
   - 'Home': index.md
 #  - News: news
-  - Standards & Practices: standards-recommendations
-  - 🧬 Genome Coordinates: standards-recommendations/genome-coordinates
-  - 📅 Dates & Times: standards-recommendations/dates-times
-  - 🗂️ Identifiers: standards-recommendations/identifiers
+  - Standards & Practices: standards
+  - 🧬 Genome Coordinates: standards/genome-coordinates
+  - 📅 Dates & Times: standards/dates-times
+  - 🗂️ Identifiers and CURIEs: standards/identifiers-and-CURIEs
   - Contacts: contacts
   - '{S}[B] SchemaBlocks &#8599;': https://schemablocks.org
   - Beacon Project &#8599;: https://beacon-project.io
@@ -87,9 +87,7 @@ extra:
   excerpt_separator: <!--more-->
   blog_list_length: 100
   social:
-    # - icon: fontawesome/brands/twitter 
-    #   link: https://twitter.com/progenetix
     - icon: fontawesome/brands/github 
-      link: https://github.com/ga4gh-schemablocks
+      link: https://github.com/ga4gh-genomestandards
 extra_css:
   - css/theme_overrides.css

@@ -1,12 +1,11 @@
 ---
-title: Identifiers and CURIEs
+title: Identifiers & CURIEs
 date: 2023-04-21
 authors:
   - "@mbaudis"
 template: post.html
-# path_element: standards
+path_element: recommendations
 ---
-
 
 !!! info "GA4GH Recommendation"
 
