@@ -16,14 +16,9 @@ template: post.html
 
 <!--more-->
 
-##### Last content edit: 2019-02-20
+## 0-start, half-open genomic coordinate system
 
-#### Contributors
-
-* Andrew Yates ([@andrewyatz](https://github.com/@andrewyatz/) :fontawesome-brands-github:)
-* GA4GH GKS workstream discussions & beyond
-
-#### Definition
+### Definition
 
 Two integers that define the start and end positions of a range of residues, possibly with length zero, and specified using "0-start, half-open" coordinates.
 
@@ -41,16 +36,16 @@ The following also applies to coordinates:
 * Two intervals intersect if start or end occurs between the start and end of the other
 * Two intervals coincide if they intersect or if they are equal
 
-#### Model
+### Model
 
 * start (int): start position >= 0 (required)
 * end (int): end position >= start (required)
 
-#### Circular coordinates
+### Circular coordinates
 
 Circular regions are not considered to be part of GA4GH and not covered here, since human genome data is handled as linear sequence. APIs may choose to support a circular location but must still support "0-start, half-open" coordinates.
 
-#### Alternative names
+### Alternative names
 
 The "0-start, half-open" scheme is also know by the following names:
 
@@ -89,7 +84,7 @@ All of these names refer to identical representations of coordinates. Interbase 
 
     "1-start, fully-closed" is the human readable coordinate system used in all genomic data displays and reports. It indexes sequences starting at 1. This system should be used when displaying genomic data to a human because it is the correct way to refer to positions. The subsequence `GAGTGC` in "1-start, fully-closed" starts at position 5 and ends at position 10. Length is calculated by subtracting start from end plus one e.g. ((10+1)-5) = 6.
 
-#### GA4GH Products and their coordinate systems
+## GA4GH Products and their coordinate systems
 
 Not all GA4GH related products, specifications and APIs use the same system for their coordinates. Refer to the table below for full details.
 
@@ -103,6 +98,13 @@ Not all GA4GH related products, specifications and APIs use the same system for 
 | refget | X |  |  |
 | Beacon | X |  |  |
 | VMC |  |  | X |
+
+--------------------------------------------------------------------------------
+
+#### Contributors
+
+* Andrew Yates ([@andrewyatz](https://github.com/@andrewyatz/) :fontawesome-brands-github:)
+* GA4GH GKS workstream discussions & beyond
 
 #### Further Reading
 
@@ -119,3 +121,4 @@ and [#121](https://github.com/ga4gh/ga4gh-schemas/issues/121).
 * [UCSC information on “0-start, half-open”](http://genome.ucsc.edu/blog/the-ucsc-genome-browser-coordinate-counting-systems/)
 * [Transforming between coordinates in “0-start, half open”](http://genomewiki.ucsc.edu/index.php/Coordinate_Transforms)
 
+##### Last content edit: 2019-02-20

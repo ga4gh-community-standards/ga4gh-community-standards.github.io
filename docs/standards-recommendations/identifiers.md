@@ -7,20 +7,21 @@ template: post.html
 # path_element: standards
 ---
 
-## General Use of Identifiers in GA4GH Standards
 
 !!! info "GA4GH Recommendation"
 
     GA4GH recommends to use CURIEs as (external) identifiers. 
     
 
+<!--more-->
+
+## General Use of Identifiers in GA4GH Standards
 
 ### CURIEs
 
 CURIEs ("[Compact URIs](https://www.w3.org/TR/curie/)") are namespace-scoped identifiers which can be expanded to Internationalized Resource Identifiers ([IRI](https://www.w3.org/International/articles/idn-and-iri/)). A CURIE is comprised of two components, a prefix and a reference, separated by a colon symbol `:`. CURIES are case sensitive, although for prefixes this practice is inconsistently being followed.
 
 The GA4GH recommendations are:
-<!--more-->
 
 * use only a single prefix
 * for newly generated identifiers, and specifically applying to the new `ga4gh` namespace, one should avoid the use of the underscore `_` character in the private part of an identifier
